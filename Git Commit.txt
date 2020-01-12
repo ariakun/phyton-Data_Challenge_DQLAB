@@ -1,0 +1,79 @@
+LenovoB490@LenovoCom MINGW64 ~ (master)
+$ cd C:\Users\LenovoB490\Downloads\phyton-Data_Challenge_DQLAB
+bash: cd: C:UsersLenovoB490Downloadsphyton-Data_Challenge_DQLAB: No such file or directory
+
+LenovoB490@LenovoCom MINGW64 ~ (master)
+$ ls
+'Data Challange DQLAB SQL.ipynb'
+ Downloads/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{97e1de86-d6fa-11e1-be62-94c0340a1222}.TxR.0.regtrans-ms
+ NTUSER.DAT{97e1de86-d6fa-11e1-be62-94c0340a1222}.TxR.1.regtrans-ms
+ NTUSER.DAT{97e1de86-d6fa-11e1-be62-94c0340a1222}.TxR.2.regtrans-ms
+ NTUSER.DAT{97e1de86-d6fa-11e1-be62-94c0340a1222}.TxR.blf
+ NTUSER.DAT{97e1de87-d6fa-11e1-be62-94c0340a1222}.TM.blf
+ NTUSER.DAT{97e1de87-d6fa-11e1-be62-94c0340a1222}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{97e1de87-d6fa-11e1-be62-94c0340a1222}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+
+LenovoB490@LenovoCom MINGW64 ~ (master)
+$ cd "C:\Users\LenovoB490\Downloads\phyton-Data_Challenge_DQLAB"
+
+LenovoB490@LenovoCom MINGW64 ~/Downloads/phyton-Data_Challenge_DQLAB (master)
+$ ls
+advisedBy.csv  course.csv                   Dataset_Hasil_Join.csv  taughtBY.csv
+Code.ipynb     Dataset_Hasil_Cleansing.csv  person.csv
+
+LenovoB490@LenovoCom MINGW64 ~/Downloads/phyton-Data_Challenge_DQLAB (master)
+$ git init
+Initialized empty Git repository in C:/Users/LenovoB490/Downloads/phyton-Data_Challenge_DQLAB/.git/
+
+LenovoB490@LenovoCom MINGW64 ~/Downloads/phyton-Data_Challenge_DQLAB (master)
+$ git remote add origin https://github.com/ariakun/phyton-Data_Challenge_DQLAB.git
+
+LenovoB490@LenovoCom MINGW64 ~/Downloads/phyton-Data_Challenge_DQLAB (master)
+$ git remote -v
+origin  https://github.com/ariakun/phyton-Data_Challenge_DQLAB.git (fetch)
+origin  https://github.com/ariakun/phyton-Data_Challenge_DQLAB.git (push)
+
+LenovoB490@LenovoCom MINGW64 ~/Downloads/phyton-Data_Challenge_DQLAB (master)
+$ git add .
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Untitled-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Code.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in advisedBy.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in course.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in person.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in taughtBY.csv.
+The file will have its original line endings in your working directory
+
+LenovoB490@LenovoCom MINGW64 ~/Downloads/phyton-Data_Challenge_DQLAB (master)
+$ git commit -m "First Commit"
+[master (root-commit) fd27c5d] First Commit
+ 8 files changed, 5119 insertions(+)
+ create mode 100644 .ipynb_checkpoints/Untitled-checkpoint.ipynb
+ create mode 100644 Code.ipynb
+ create mode 100644 Dataset_Hasil_Cleansing.csv
+ create mode 100644 Dataset_Hasil_Join.csv
+ create mode 100644 advisedBy.csv
+ create mode 100644 course.csv
+ create mode 100644 person.csv
+ create mode 100644 taughtBY.csv
+
+LenovoB490@LenovoCom MINGW64 ~/Downloads/phyton-Data_Challenge_DQLAB (master)
+$ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 57.97 KiB | 8.28 MiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/ariakun/phyton-Data_Challenge_DQLAB.git
+ * [new branch]      master -> master
